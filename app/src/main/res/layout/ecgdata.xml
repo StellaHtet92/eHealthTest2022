@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:text="Collected Date/Time"
+        android:layout_alignParentLeft="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Synchronized"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Name"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewECG"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/success"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageViewStatus"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

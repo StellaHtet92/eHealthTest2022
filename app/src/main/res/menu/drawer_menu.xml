@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/logo_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_basicInfo"
+            android:icon="@drawable/user"
+            android:title="Basic Information" />
+        <item
+            android:id="@+id/nav_vital"
+            android:icon="@drawable/logo2"
+            android:title="Add New Vital Signs" />
+        <item
+            android:id="@+id/nav_glucometer"
+            android:icon="@drawable/logo2"
+            android:title="Blood Sugar Level Analysis" />
+        <item
+            android:id="@+id/nav_ecg"
+            android:icon="@drawable/logo2"
+            android:title="Electrocardiogram" />
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/ic_notification_24"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/ic_logout_24"
+            android:title="Log Out" />
+
+    </group>
+</menu>

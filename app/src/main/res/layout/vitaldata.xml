@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:text="EWS"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Created At"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="ID"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Blood Sugar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="EWS"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewEWS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Created At"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewVitalCreatedAt"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="ID"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewVitalID"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<TextView
+        android:text="Temp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewTemp"
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="BP"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewBP"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+    <TextView
+        android:text="Blood Sugar"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewBloodSugar"
+        android:layout_marginLeft="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/success"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageViewVitalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
